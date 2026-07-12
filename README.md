@@ -66,7 +66,7 @@ CareerConnect-Nexus/
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CareerConnect-Nexus.git
+git clone https://github.com/hvaishnavi/CareerConnect.git
 ```
 
 ## Open in VS Code
