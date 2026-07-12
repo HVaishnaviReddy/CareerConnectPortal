@@ -80,33 +80,6 @@ Open the project folder in Visual Studio Code.
 3. Select **Open with Live Server**.
 
 The project will open in your default browser.
-
----
-
-# 📸 Project Screenshots
-
-## 🔐 Login Page
-
-<p align="center">
-<img src="assets/screenshots/login.png" width="900">
-</p>
-
----
-
-## 💼 Job Listings
-
-<p align="center">
-<img src="assets/screenshots/jobs.png" width="900">
-</p>
-
----
-
-## 📊 Career Journey Dashboard
-
-<p align="center">
-<img src="assets/screenshots/career.png" width="900">
-</p>
-
 ---
 
 # 🎯 Key Functionalities
