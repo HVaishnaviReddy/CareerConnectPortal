@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jobs Portal - CareerConnect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CareerConnect</h1>
+    <nav>
+      <a href="career.html">My Career Journey</a>
+      <button onclick="logout()">🚪 Logout</button>
+    </nav>
+    <button id="toggleTheme">🌙 Toggle Theme</button>
+  </header>
+
+  <section id="jobSection">
+    <h2>Job Listings</h2>
+    <input type="text" id="searchInput" placeholder="Search jobs...">
+    <select id="filterRole">
+      <option value="">All Roles</option>
+      <option value="Frontend">Frontend</option>
+      <option value="Backend">Backend</option>
+      <option value="Full Stack">Full Stack</option>
+    </select>
+    <select id="filterExperience">
+      <option value="">All Experience</option>
+      <option value="Fresher">Fresher</option>
+      <option value="3+ years">3+ years</option>
+    </select>
+    <div id="jobList" class="card-container"></div>
+  </section>
+
+  <!-- Application Popup -->
+  <div id="applyPopup" class="popup hidden">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closeApplyForm()">&times;</span>
+      <h2>Apply for <span id="applyJobTitle"></span></h2>
+      <form id="applyForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Cover Letter" required></textarea>
+        <button type="submit">Submit Application</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
